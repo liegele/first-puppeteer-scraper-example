@@ -6,7 +6,7 @@ const getQuotes = async () => {
   //- no default viewport ('defaultviewport: null' - website page will in full width and height)
   const browser = await puppeteer.launch({
     headless: false,
-    /*    defaultviewport: null, */
+    // defaultviewport: null,
   });
 
   //Open a new page/tab
@@ -38,10 +38,10 @@ const getQuotes = async () => {
   //Display quotes
   console.log(quotes);
 
-  //Close tab
+  /* //Close tab
   await page.close();
   //Close the browser
-  await browser.close();
+  await browser.close(); */
 };
 
 //Start the scraping
