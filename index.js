@@ -63,7 +63,7 @@ const getQuotes = async () => {
   // ]);
 
   /* //Close tab
-  await page.close();ext
+  await page.close();
   //Close the browser
   await browser.close(); */
 };
